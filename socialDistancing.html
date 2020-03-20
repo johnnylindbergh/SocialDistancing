@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <script language="javascript" type="text/javascript" src="./lib/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="./lib/p5.sound.js"></script> 
+    <script language="javascript" type="text/javascript" src="socialDistancing.js"></script> 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+    <style> body {padding: 0; margin: 0;} </style>
+  </head>
+
+  <body>
+  	 <div id="chart_div"></div>
+  	<p>Social Rate:
+  	 <input type="range" min="1" max="1000" value="50" onchange="setSocialRate(this.value);"/></body>
+  	</p>
+</html>
+ <script language="javascript" type="text/javascript" src="charts.js"></script> 
+
+  <script>
+  	
+  	window.setInterval(reload, 1000);
+  </script>
